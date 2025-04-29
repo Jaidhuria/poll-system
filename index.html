@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poll System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <div class="border">
+      <div class="title">
+        <p>Poll System</p>
+        <h1>Which is your favourite programming language?</h1>
+      </div>
+
+      <div class="poll-options">
+        <label><input type="radio" name="poll" value="option4" /> C++</label>
+        <label><input type="radio" name="poll" value="option3" /> Java</label>
+        <label><input type="radio" name="poll" value="option2" /> Python</label>
+        <label><input type="radio" name="poll" value="option1" /> JavaScript</label>
+      </div>
+
+      <button onclick="submitVote()">Submit Vote</button>
+
+      <div id="result" class="results"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
